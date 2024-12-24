@@ -10,6 +10,7 @@ version = "0.1.0"
 chainsmith-adapter-ethereum.workspace = true
 chainsmith-adapter-solana.workspace = true
 chainsmith-adapter-substrate.workspace = true
+chainsmith-adapter-sui.workspace = true
 
 [features]
 default = [  ]

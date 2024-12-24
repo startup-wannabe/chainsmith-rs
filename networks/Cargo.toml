@@ -8,6 +8,7 @@ license.workspace = true
 
 [dependencies]
 alloy.workspace = true
+sui_sdk.workspace = true
 chainsmith-primitives.workspace = true
 solana-transaction-status.workspace = true
 solana-signature.workspace = true

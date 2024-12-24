@@ -4,7 +4,9 @@ use chainsmith_primitives::{Address, Balance, BlockNumber, Result};
 
 pub mod ethereum;
 pub mod solana;
+#[deprecated]
 pub mod substrate;
+pub mod sui;
 
 /// All chain adapters are required to implement this `Network` trait.
 pub trait Network {
